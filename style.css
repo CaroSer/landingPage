@@ -13,7 +13,7 @@ body {
 }
 .subtitleDark
 {
-    color: #D4ADFC;
+    color: #e6d3fa;
     font-weight: bold;
     justify-content: center;
 }
@@ -39,7 +39,8 @@ display: flex;
 flex-direction: column;
 align-content: center;
 justify-content: center;
-margin-bottom: 20px;
+margin-bottom: 70px;
+margin-top: 20px;
 }
 .boxCont{
 display: flex;
@@ -109,6 +110,23 @@ list-style-type: none;
     background-color: #616bc0;
     width: 100%;
     margin-left: -8px;
-    height: 100px;
-    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#quoteText{
+    width: 450px;
+    font-size:22px;
+    color: #e6d3fa;
+    align-self: center;
+    font-style: italic;
+
+}
+#quoteAutor{
+    color: #e6d3fa;
+    align-self: flex-end; 
+    font-weight: bold;
+    align-self: center;
+    margin-left: 212px;
 }
